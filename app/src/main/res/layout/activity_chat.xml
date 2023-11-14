@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/chatbg"
+    tools:context=".activities.ChatActivity">
+
+
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/materialToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="100dp"
+        android:background="@color/chat_head"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" >
+
+        <ImageView
+            android:id="@+id/back_user"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/baseline_arrow_back_ios_24"
+            tools:layout_editor_absoluteX="52dp"
+            tools:layout_editor_absoluteY="241dp"
+            android:contentDescription="TODO" />
+
+        <LinearLayout
+            android:layout_width="310dp"
+            android:layout_height="60dp"
+            android:orientation="horizontal">
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/chatPfp"
+                android:layout_width="46dp"
+                android:layout_height="40dp"
+                android:elevation="30dp"
+                android:layout_marginStart="90dp"
+                android:layout_marginTop="9dp"
+                android:onClick="openGallery"
+                android:src="@drawable/defpfp"
+                app:civ_border_color="#FF000000"
+                app:civ_border_width="2dp"
+                />
+
+            <TextView
+                android:id="@+id/chatName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nigga"
+                android:textSize="24sp"
+                android:textColor="@color/texts_color"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="12dp"/>
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/info"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="13dp"
+            app:srcCompat="@drawable/baseline_info_24"
+            tools:layout_editor_absoluteX="126dp"
+            tools:layout_editor_absoluteY="285dp" />
+
+
+    </com.google.android.material.appbar.MaterialToolbar>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/chatRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="65dp"
+        android:layout_marginBottom="65dp">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+        <LinearLayout
+            android:id="@+id/msgLayout"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="56dp"
+            android:layout_marginBottom="3dp"
+            android:layout_alignParentBottom="true"
+            android:orientation="horizontal">
+
+
+            <EditText
+                android:id="@+id/msgBox"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="10"
+                android:ems="10"
+                android:hint="Type here"
+                android:inputType="text"
+                android:textColor="@color/white"
+                android:textColorHint="@color/secondary_text" />
+
+            <ImageView
+                android:id="@+id/sendBtn"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:backgroundTint="@color/secondary_text"
+                android:paddingEnd="10dp"
+                android:src="@drawable/send" />
+
+
+        </LinearLayout>
+
+
+</RelativeLayout>

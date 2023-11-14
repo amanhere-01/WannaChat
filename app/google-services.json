@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "856353999617",
+    "project_id": "wannachat-96be5",
+    "storage_bucket": "wannachat-96be5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:856353999617:android:4bf7d0eca576349ced2900",
+        "android_client_info": {
+          "package_name": "com.example.wannachat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "856353999617-aqnjlu5qoe81ercmh7td31ne4nntl2hv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.wannachat",
+            "certificate_hash": "0eba9377590ff884888a7268d6aa785d52e3b47a"
+          }
+        },
+        {
+          "client_id": "856353999617-7crshu8g1bgl0d4i4rtldtannnmao82h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDttCkW0vgQ4yz_f1csYjK1v3IqPRSrq18"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "856353999617-7crshu8g1bgl0d4i4rtldtannnmao82h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
