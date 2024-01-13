@@ -10,56 +10,29 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
 
-        <LinearLayout
-            android:layout_width="292dp"
+        <TextView
+            android:id="@+id/user"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:layout_marginStart="15dp"
+            android:text="Person"
+            android:textSize="30sp"
+            android:fontFamily="serif-monospace"
+            android:textStyle="bold">
 
-
-            <TextView
-                android:id="@+id/user"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="15dp"
-                android:layout_marginTop="8dp"
-                android:text="Yashuda"
-                android:textColor="@color/texts_color"
-                android:textSize="30sp"
-                android:textStyle="bold">
-
-            </TextView>
-
-            <TextView
-                android:id="@+id/email"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="15dp"
-                android:textColor="@color/texts_color"
-                android:text="nOOB"
-                android:textSize="18sp">
-
-            </TextView>
-
-        </LinearLayout>
+        </TextView>
 
         <de.hdodenhof.circleimageview.CircleImageView
             android:id="@+id/avatar"
-            android:layout_width="73dp"
+            android:layout_width="64dp"
             android:layout_height="64dp"
-            android:layout_marginTop="9dp"
-            android:layout_marginStart="10dp"
-            android:onClick="openGallery"
             android:src="@drawable/defpfp"
             app:civ_border_color="#FF000000"
             app:civ_border_width="2dp"
-            app:layout_constraintBottom_toTopOf="@+id/inputName"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.498"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.58" />
+            />
     </LinearLayout>
 
 

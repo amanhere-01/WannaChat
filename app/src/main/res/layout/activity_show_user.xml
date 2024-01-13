@@ -4,14 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/userbg"
+    android:background="@color/white"
     tools:context=".activities.ShowUserActivity">
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar2"
         android:layout_width="match_parent"
         android:layout_height="72dp"
-        android:background="@color/primary"
+        android:background="@color/black"
         app:layout_constraintBottom_toTopOf="@+id/recyclerView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
@@ -36,11 +36,8 @@
             android:layout_width="38dp"
             android:layout_height="38dp"
             android:layout_marginStart="230dp"
-            app:srcCompat="@drawable/baseline_more_vert_24" />
-
-
-
-
+            app:srcCompat="@drawable/baseline_more_vert_24"
+            app:tint="@color/white" />
 
     </androidx.appcompat.widget.Toolbar>
 

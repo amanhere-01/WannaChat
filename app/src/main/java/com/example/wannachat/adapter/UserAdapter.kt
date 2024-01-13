@@ -25,7 +25,6 @@ class UserAdapter(private val userList : ArrayList<UserData>) : RecyclerView.Ada
 
     override fun onBindViewHolder(holder: UserViewHolder, position: Int) {
         holder.binding.user.text= userList[position].username
-        holder.binding.email.text= userList[position].email
 //        holder.tvUserName.text = userList[position].username
 //        holder.tvUserEmail.text = userList[position].email
         val uniqueID = userList[position].uid
