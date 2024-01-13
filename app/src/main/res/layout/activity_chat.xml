@@ -105,7 +105,6 @@
                 android:id="@+id/sendBtn"
                 android:layout_width="55dp"
                 android:layout_height="55dp"
-                android:backgroundTint="@color/secondary_text"
                 android:paddingEnd="10dp"
                 android:src="@drawable/send" />
 
