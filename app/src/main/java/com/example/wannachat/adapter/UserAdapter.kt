@@ -15,7 +15,6 @@ import com.example.wannachat.model.UserData
 import com.google.firebase.storage.FirebaseStorage
 import de.hdodenhof.circleimageview.CircleImageView
 
-//class UserAdapter(private val userList : ArrayList<UserData>) : RecyclerView.Adapter<UserViewHolder>(){
 class UserAdapter(private val userList : ArrayList<UserData>) : RecyclerView.Adapter<UserAdapter.UserViewHolder>(){
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): UserViewHolder {
         val inflater = LayoutInflater.from(parent.context)
