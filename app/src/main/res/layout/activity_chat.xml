@@ -14,7 +14,7 @@
         android:layout_width="match_parent"
         android:layout_height="65dp"
         android:elevation="100dp"
-        android:background="@color/primary"
+        android:background="@color/primary_dark"
         app:contentInsetStart="0dp"
         app:contentInsetEnd="0dp">
 
