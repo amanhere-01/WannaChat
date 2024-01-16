@@ -68,6 +68,7 @@
             android:id="@+id/textSignUp"
             android:layout_width="350dp"
             android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
             android:text="@string/create_new_account"
             android:textColor="@color/primary_text"
             android:gravity="center"
