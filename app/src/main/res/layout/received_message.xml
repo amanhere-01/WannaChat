@@ -20,7 +20,7 @@ android:layout_height="50dp" >
                 android:paddingEnd="11dp"
                 android:paddingTop="5dp"
                 android:textSize="26sp"
-                android:textColor="@color/white"
+                android:textColor="@color/texts_color"
                 android:text="This is received message" />
 
         </RelativeLayout>

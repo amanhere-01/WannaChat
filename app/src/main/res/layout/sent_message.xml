@@ -23,7 +23,7 @@
                 android:paddingTop="7dp"
                 android:paddingEnd="11dp"
                 android:textSize="26sp"
-                android:textColor="@color/white"
+                android:textColor="@color/texts_color"
                 android:text="This is sent message" />
 
         </RelativeLayout>
