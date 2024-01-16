@@ -12,8 +12,8 @@
         android:layout_height="177dp"
         android:onClick="openGallery"
         android:src="@drawable/defpfp"
-        app:civ_border_color="#FF000000"
-
+        app:civ_border_color="@color/primary"
+        app:civ_border_width="5dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
@@ -28,9 +28,7 @@
         android:layout_height="60dp"
         android:layout_marginTop="40dp"
         android:layout_marginBottom="280dp"
-        android:elevation="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
-
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.483"
         app:layout_constraintStart_toStartOf="parent"
